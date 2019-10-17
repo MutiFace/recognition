@@ -1,0 +1,2 @@
+1. inference-crop.py --> 使用resnet18预训练模型，提取测试集图像1024d特征，输出face_embedding_test.mat；（GPU 3min）
+2. cal_submission.py 计算sample submission中图像pair的cos距离；（CPU单线程1.5min，多线程十几秒）
